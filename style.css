@@ -9,19 +9,23 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    width: 100%;
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 10;
+    color: white;
+    width: 100vw;
 }
 .descuentos{
-    height: 38px;
     background: #1CD1B0;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-left: 10px;
+    font-size: 20px;
+    padding-left: 1.5%;
+}
+div {
+    width: 100vw;
 }
 
 h1 {
@@ -35,12 +39,14 @@ h1 {
 }
 
 h2 {
+    font-size: 140%;
     font-weight: normal;
     position: absolute;
     z-index: 3;
     color: black;
-    top: 267px;
-    left: 89px;
+    top: 50%;
+    left: 22%;
+    text-align: center;
 }
 
 article{
@@ -49,25 +55,27 @@ article{
 
 footer{
     background: #00669F;
-    height: 51px;
+    height: 8vh;
+    position: absolute;
+    width: 100vw;
 }
 
 .derechos{
     color: #FFF9F9;
     font-style: normal;
-    padding-left: 16px;
-    padding-top: 15px;
+    text-align: center;
+    padding-top: 16px;
 }
 
 article {
     position: relative;
-    width: 300px;
-    height: 529px;
+    width: 340px;
+    height: 590px;
     left: 32px;
     top: 154px;
     background-color: #F3F3F3;
-    border-top-left-radius: 4%;
-    border-top-right-radius: 4%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     display: inline-block;
     margin: 100px;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
@@ -77,31 +85,37 @@ article {
     position: absolute;
     z-index: 3;
     color: white;
-    top: 460px;
-    left: 85px;
+    top: 88%;
+    left: 30%;
     background-color: #00669F;
     padding: 15px 37px;
 }
 .descripcion {
-    position: absolute;
-    z-index: 3;
     color: black;
-    top: 300px;
+    font-size: 98%;
     padding: 16px;
+    position: absolute;
     text-align: justify;
+    top: 55%;
+    z-index: 3;
 }
 
 .imagenfondo {
     position: absolute;
     z-index: 2;
+    width: 100%;
+    height: 35%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
 }
 
 .fotoperfil {
-    position: absolute;
+    position: relative;
     z-index: 3;
+    width: 50%;
     border-radius: 50%;
-    left: 90px;
-    top: 121px;
+    left: 25%;
+    top: 20%;
 }
 
 .fas {
@@ -114,15 +128,15 @@ article {
 }
 
 .cards {
-    align-items: center;
+    align-items:center;
     display: inline-block;
     justify-content: space-around;
     margin: 0 50px;
     width: 300px;
     padding-bottom: 15%;
-    padding-left: 10% ;
     position: relative;
 }
+
 
 /* article.card{
     background-color: #F3F3F3;
